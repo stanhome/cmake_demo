@@ -1,5 +1,9 @@
 project(hello)
 
+# [STATUS|WARNING|SEND_ERROR|FATAL_ERROR]
+message("----------")
+message(STATUS "[i]build 'hello' project begin...")
+
 add_subdirectory(src)
 
 install(FILES COPYRIGHT README DESTINATION share/doc/cmake_demo)
