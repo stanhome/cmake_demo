@@ -12,6 +12,5 @@ set(SRC_LIST hello.c)
 include_directories(${hello_SOURCE_DIR}/include)
 # define library name, source file, static or dynamic.
 #       add_library(libname [SHARED|STATIC|MODULE] [EXCLUDE_FROM_ALL] source1 source2 ... sourceN)
-
 add_library(util STATIC ${SRC_LIST})
 
