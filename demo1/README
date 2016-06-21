@@ -1,0 +1,3 @@
+- go to build folder and run "cmake -DCMAKE_INSTALL_PREFIX=~/Documents/git/cmake_demo/demo1_install .." command.
+- run "make" to compile and link cpp files.
+- run "make install" to install project.
