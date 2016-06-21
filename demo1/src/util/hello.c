@@ -2,5 +2,5 @@
 
 void sayHello()
 {
-    printf("say hello from hello.c file");
+    printf("say hello from hello.c file\n");
 }
