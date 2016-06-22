@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix">
+        <file>images/cmake_logo-main.png</file>
+    </qresource>
+</RCC>
